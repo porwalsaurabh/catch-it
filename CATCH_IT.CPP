@@ -518,28 +518,6 @@ void input()
 	    outtextxy(150,200,"CATCH IT");
 	    delay(2000);
 	    cleardevice();
-	    setcolor(BLUE);
-	     settextstyle(BOLD_FONT,HORIZ_DIR,2);    //BOLD_FONT
-	       rectangle(50,50,600,439);
-	       delay(1000);
-	    outtextxy(120,80,"SAURABH PORWAL");
-	    delay(1000);
-	     outtextxy(120,170,"MOHINI PANDEY");
-	    delay(1000);
-	     outtextxy(120,260,"ROHAN LAGARE");
-	    delay(1000);
-	     outtextxy(120,350,"GAURAV OSTWAL");
-	    delay(1000);
-	    cleardevice();
-	    setcolor(MAGENTA);
-	    delay(1000);
-	    outtextxy(120,150,"SE COMPUTER STUDENTS");
-	    delay(1000);
-	    outtextxy(220,220,"S4 BATCH");
-	    delay(1000);
-	    setcolor(RED);
-	    rectangle(50,50,600,439);
-	    getch();
 	}
 
 void load()
